@@ -34,7 +34,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SpawnComp")
 		USphereComponent* ProjectileSpawnPoint;
 
-	UPROPERTY(BlueprintReadWrite, Category = "Components")
+	UPROPERTY(BlueprintReadWrite,EditAnywhere, Category = "Components")
 	int Fish;
 
 public:	
